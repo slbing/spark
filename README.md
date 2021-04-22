@@ -108,3 +108,6 @@ Please review the [Contribution to Spark guide](https://spark.apache.org/contrib
 for information on how to get started contributing to the project.
 
  mvn clean install -Dtest -DskipTests -Pspark-ganglia-lgpl -Pyarn -U
+
+ mvn versions:set -DnewVersion=3.2.0—maple-SNAPSHOT -Pspark-ganglia-lgpl -Pyarn
+	
