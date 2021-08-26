@@ -43,22 +43,17 @@
     <url>scm:git:git@github.com:apache/spark.git</url>
     <tag>HEAD</tag>
   </scm>
-  <distributionManagement>
-		<repository>
+   <distributionManagement>
+			<repository>
 			<id>releases</id>
 			<name>Nexus Release Repository</name>
-			<url>http://dn3.qike.bds.com:8081/repository/maven-releases/</url>
+			<url>http://nexus.osrt.com:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Nexus Snapshot Repository</name>
-			<url>http://dn3.qike.bds.com:8081/repository/maven-snapshots/</url>
+			<url>http://nexus.osrt.com:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
-		<site>
-			<id>apache.website</id>
-			<url>${siteUrlDeployment}</url>
-			<name>Flume Site</name>
-		</site>
 	</distributionManagement>
   <developers>
     <developer>
